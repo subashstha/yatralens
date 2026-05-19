@@ -28,6 +28,14 @@ app.use('/api', limiter);
 
 app.get('/health', (req, res) => res.json({ status: 'OK', timestamp: new Date().toISOString() }));
 
+app.get('/run-seed', (req, res) => {
+  const { exec } = require('child_process');
+  exec('node seed.js', { cwd: __dirname }, (err, stdout, stderr) => {
+    if (err) return res.status(500).json({ success: false, error: stderr });
+    res.json({ success: true, output: stdout });
+  });
+});
+
 // Routes
 app.use('/api/v1/auth', require('./routes/auth'));
 app.use('/api/v1/destinations', require('./routes/destinations'));
