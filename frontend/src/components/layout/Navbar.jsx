@@ -91,8 +91,8 @@ export default function Navbar() {
               <path d="M25 4L27.5 10L25 8L22.5 10L25 4Z" fill="white" opacity="0.75"/>
             </svg>
             <div>
-              <span className={`font-display font-bold text-lg tracking-tight transition-colors ${!scrolled && !isOpen && isHome ? 'text-white' : 'text-gray-900 dark:text-white'}`}>Explore</span>
-              <span className="font-display font-bold text-lg text-primary-500 tracking-tight"> Nepal</span>
+              <span className={`font-display font-bold text-lg tracking-tight transition-colors ${!scrolled && !isOpen && isHome ? 'text-white' : 'text-gray-900 dark:text-white'}`}>Yatra</span>
+              <span className="font-display font-bold text-lg text-primary-500 tracking-tight">Lens</span>
             </div>
           </Link>
 

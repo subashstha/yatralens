@@ -85,7 +85,7 @@ export default function Footer() {
 
         <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-sm text-gray-500">
-            © {new Date().getFullYear()} Explore Nepal. All rights reserved.
+            © {new Date().getFullYear()} YatraLens. All rights reserved.
           </p>
           <p className="text-sm text-gray-500 flex items-center gap-1">
             Made with <FiHeart size={14} className="text-primary-500" /> for Nepal
