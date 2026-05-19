@@ -1,0 +1,10 @@
+<svg width="38" height="30" viewBox="0 0 38 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Back peak (lighter) -->
+  <path d="M25 4L38 27H12L25 4Z" fill="#2dd4bf" opacity="0.6"/>
+  <!-- Front peak (primary) -->
+  <path d="M13 10L26 27H0L13 10Z" fill="#0d9488"/>
+  <!-- Snow cap front -->
+  <path d="M13 10L16.5 17L13 15L9.5 17L13 10Z" fill="white" opacity="0.92"/>
+  <!-- Snow cap back -->
+  <path d="M25 4L27.5 10L25 8L22.5 10L25 4Z" fill="white" opacity="0.75"/>
+</svg>

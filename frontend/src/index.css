@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap");
+@import "leaflet/dist/leaflet.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-white dark:bg-gray-950 text-gray-900 dark:text-gray-100 font-sans;
+    transition:
+      background-color 0.3s ease,
+      color 0.3s ease;
+  }
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-gray-100 dark:bg-gray-900;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-primary-600 rounded-full;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-primary-600 hover:bg-primary-700 text-white font-semibold px-6 py-3 rounded-xl transition-all duration-200 shadow-md hover:shadow-lg active:scale-95;
+  }
+  .btn-outline {
+    @apply border-2 border-primary-600 text-primary-600 hover:bg-primary-600 hover:text-white font-semibold px-6 py-3 rounded-xl transition-all duration-200;
+  }
+  .btn-ghost {
+    @apply text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 font-medium px-4 py-2 rounded-lg transition-all duration-200;
+  }
+  .card {
+    @apply bg-white dark:bg-gray-900 rounded-2xl shadow-card hover:shadow-card-hover transition-all duration-300 overflow-hidden;
+  }
+  .section-title {
+    @apply text-3xl md:text-4xl font-display font-bold text-gray-900 dark:text-white;
+  }
+  .section-subtitle {
+    @apply text-lg text-gray-500 dark:text-gray-400 mt-3 max-w-2xl;
+  }
+  .input-field {
+    @apply w-full px-4 py-3 rounded-xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent transition-all duration-200 placeholder-gray-400;
+  }
+  .badge {
+    @apply inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold;
+  }
+  .gradient-text {
+    @apply bg-gradient-to-r from-primary-600 to-primary-400 bg-clip-text text-transparent;
+  }
+  .glass {
+    @apply bg-white/10 backdrop-blur-md border border-white/20;
+  }
+  .container-custom {
+    @apply w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+}
+
+/* Swiper custom styles */
+.swiper-pagination-bullet-active {
+  background: #dc143c !important;
+}
+
+/* Leaflet map fix */
+.leaflet-container {
+  z-index: 1;
+}
