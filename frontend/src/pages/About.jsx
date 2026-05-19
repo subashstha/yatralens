@@ -98,7 +98,7 @@ export default function About() {
                 Born from a love<br />for the mountains
               </h2>
               <p className="mt-6 text-gray-500 dark:text-gray-400 leading-relaxed text-base md:text-lg">
-                Explore Nepal started with a frustration — most travel platforms showed the same 10 places
+                YatraLens started with a frustration — most travel platforms showed the same 10 places
                 and the same stock photos. But Nepal has over 200 distinct destinations, each with its own
                 culture, terrain, and story.
               </p>
@@ -173,7 +173,7 @@ export default function About() {
               viewport={{ once: true }}
               className="text-gray-400 lg:text-right text-sm leading-relaxed max-w-sm lg:ml-auto"
             >
-              Four beliefs that shape every decision we make at Explore Nepal — from what we list to how we build.
+              Four beliefs that shape every decision we make at YatraLens — from what we list to how we build.
             </motion.p>
           </div>
 

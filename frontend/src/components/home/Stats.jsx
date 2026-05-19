@@ -73,7 +73,7 @@ export default function Stats() {
             </span>
 
             <h2 className="mt-3 font-display font-bold text-3xl md:text-4xl text-gray-900 dark:text-white leading-tight">
-              Explore Nepal's<br />Uncharted Trails
+              YatraLens<br />Uncharted Trails
             </h2>
 
             <p className="mt-5 text-gray-500 dark:text-gray-400 leading-relaxed text-[15px]">

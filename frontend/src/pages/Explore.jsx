@@ -111,7 +111,7 @@ export default function Explore() {
       <div className="bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-950 py-12">
         <div className="container-custom">
           <motion.h1 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="section-title mb-3">
-            Explore Nepal
+            Explore Destinations
           </motion.h1>
           <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.1 }} className="text-gray-500 dark:text-gray-400 mb-6">
             Discover {total > 0 ? `${total} incredible` : 'incredible'} destinations across Nepal
