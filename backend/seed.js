@@ -938,9 +938,9 @@ const seedDB = async () => {
   // Create users
   console.log('Creating users...');
   const adminUser = await User.create({
-    name: 'Admin Nepal',
-    email: 'admin@explorenepal.com',
-    password: 'Admin@123',
+    name: 'Subash Shrestha',
+    email: '9819690893.subash@gmail.com',
+    password: 'q){#AH227F)+DD',
     role: 'admin',
     bio: 'Administrator of Explore Nepal — passionate about showcasing the beauty of Nepal to the world.',
   });

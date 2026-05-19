@@ -81,9 +81,6 @@ export default function Login() {
             <Link to="/register" className="text-primary-600 font-semibold hover:underline">Create one</Link>
           </div>
 
-          <div className="mt-4 p-3 bg-blue-50 dark:bg-blue-950/30 rounded-xl text-xs text-blue-600 dark:text-blue-400">
-            <strong>Demo:</strong> admin@explorenepal.com / Admin@123
-          </div>
         </motion.div>
       </div>
     </div>
